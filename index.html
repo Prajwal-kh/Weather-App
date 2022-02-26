@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <!-- this form will be posted on localhost:3000/weather -->
+    <form action="/weather" method="post">
+      <label for="cityName">Enter City Name: </label>
+      <input type="text" name="cityName" placeholder="City Name">
+<!-- 
+        <input type="radio" name="units">
+        <label for="units">metrics</label>
+        <input type="radio" name="units">
+        <label for="units">degrees</label>
+        <input type="radio" name="units">
+        <label for="units">imperial</label> -->
+
+
+      <button type="submit" style="background-color:#98BAE7;">Check Weather</button>
+    </form>
+  </body>
+</html>
